@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url(images/book-fair-678264_1280.jpg) ;
+	background-size: cover;
+}
+
+#header{
+	background-color:black;
+	font-family:"aguafina-script";
+	margin: -10px;
+	height:150px;
+}
+h1{
+	color: purple;
+}
+h1#unique{
+	color: Purple;
+	font-size: 48px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ins{
+	color: purple;
+}
+
+ul{
+	float:right;
+}
+ul li{
+	list-style-type: none;
+	display:inline-table;
+	padding: 10px;
+}
+ul li a{
+	padding: 10px;
+	color:red;
+	font-family:Andale Mono,;
+}
+ul li a:hover{
+	background-color: purple;	
+}
+
+#cta{
+	width: 1500px;
+	height:100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.box{
+	border:double;
+	background: yellow;
+	border-color: purple;
+	border:double;
+	border-radius:30px;
+	color:black;
+	font-size:24px;
+	font-style:italic;
+	cursor: pointer;
+	padding: 25px;
+	margin-right: 10px;
+}
+
+.box:hover{
+	background:white;
+	color:#6F58A7;
+}
+
+#content{
+	background-color: pink;
+	margin: -10px;
+	font-family:"Courier New", Courier, monospace;
+	height: 1000px;
+	padding: 20px;
+}
+p1{
+	font-size:18px;
+}
+pre{
+	font-size:18px;
+}
+
+img{
+	margin:auto;
+	display:block;
+}
+
+#footer{
+	height:125px;
+	background-color: black;
+	background-size: cover;
+	font-family: Helvetica Neue,;
+	outline-style:ridge;
+	outline-color: #9F9999;
+	padding: 50px;
+	color:white;
+}
+
+
+ul2{
+	list-style-type: none;
+	font-size:18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
